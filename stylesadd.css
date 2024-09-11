@@ -1,0 +1,142 @@
+
+body {
+    padding-top: 100px;
+    font-family: Arial, sans-serif;
+    background-color: #f4d9d0; /* Light background for better readability */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.add_section {
+    margin-top: 300px;
+    width: 90%;
+    max-width: 800px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.heading h1 {
+    color: #921a40;
+}
+
+.heading a button {
+    padding: 8px 16px;
+    background-color: #c75b7a;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+h2 {
+    color: #921a40;
+    margin-top: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+h4 {
+    color: #921a40;
+    margin-bottom: 10px;
+}
+
+.basic_info_holder,
+.basic_info_holder2,
+.basic_info_holder3 {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.label_input {
+    flex: 1 1 45%;
+    display: flex;
+    flex-direction: column;
+}
+
+.label_input label {
+    color: #921a40;
+    font-weight: bold;
+}
+
+.flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex2 {
+    display: flex;
+    align-items: center;
+    margin-top: 5px;
+}
+
+.error {
+    color: #c75b7a;
+    font-size: 0.85em;
+}
+
+input[type="text"],
+input[type="number"],
+input[type="date"],
+textarea,
+select {
+    padding: 8px;
+    border: 1px solid #d9abab;
+    border-radius: 4px;
+    margin-top: 5px;
+    font-size: 14px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+textarea {
+    height: 100px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 5px;
+}
+
+input[type="range"] {
+    margin-top: 10px;
+    width: 100%;
+}
+
+
+
+.submit {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.submit input[type="submit"] {
+    background-color: #921a40;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.submit input[type="submit"]:hover {
+    background-color: #c75b7a;
+}
